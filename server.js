@@ -12,7 +12,7 @@ const http = require("http");
 const app = express();
 
 // Sets an initial port. We"ll use this later in our listener
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 
 // Create a fXn for handling the requests & responses coming into our server
   function handleRequest(req, res) {
